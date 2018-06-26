@@ -7,9 +7,14 @@ import java.util.Random;
 
 public class IntroToRandom {
 	public static void main(String[] args) {
+		Random randGen= new Random();
+		int r = randGen.nextInt(88-(-222)+1)-222;
 		
-		int r = 0;
+		System.out.println(Integer.MAX_VALUE);
+		System.out.println(r);
 		
+		
+	
 		//3. Now make r random. 
 		//   Create an object of the Random class
 		//	 use .nextInt() to get a random number

@@ -22,13 +22,29 @@ public class Validation {
 
 		// 3. Use each value of randomNumber to give the user a random compliment.
 		if( randomNumber ==0) {
-			JOptionPane.showInputDialog("You're nice!");
+			for (int i=0; i < 10; i++) {
+			JOptionPane.showMessageDialog(null, "You're nice!");
+			}
 		}
 		if( randomNumber ==1) {
-			JOptionPane.showInputDialog("Such a kind person!");
+			for (int i=1; i < 10; i++) {
+			JOptionPane.showMessageDialog(null, "Such a kind person!");
+			}
 		}
 		if( randomNumber ==2) {
-			JOptionPane.showInputDialog("You're friendly");
+			for (int i=2; i < 10; i++) {
+			JOptionPane.showMessageDialog(null, "You're friendly", null, randomNumber);
+			}
+		}
+		if (randomNumber ==3) {
+			for (int i=3; i < 10; i++) {
+			JOptionPane.showMessageDialog(null, "Wow you're great!");
+			}
+		}
+		if ( randomNumber ==4) {
+			for (int i=4; i < 10; i++) {
+			JOptionPane.showMessageDialog(null, "Wow you're handsome");
+			}
 		}
 		// 4. Repeat all the code above 10 times
 		
